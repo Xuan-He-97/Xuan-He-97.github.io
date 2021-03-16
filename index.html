@@ -39,7 +39,11 @@
     <section>
       <p class='section-head'>Description</p>
       <p>
-        This file is based on <a>https://github.com/tensorflow/tfjs-examples/tree/master/mobilenet</a>.
+        This model classifies four types of buildings or objects. They are pavilion, theater, museum and stone. 
+        Each class contains about 100 pictures taken fron different angle around the object.
+        The data could be downloaded at <a>https://drive.google.com/file/d/1rj-RaymLVMJoZOrkxa2wt0h2-EoPrDVL/view?usp=sharing</a>
+        The model is trained by  randomly separating half of the data as training set and other as validation set.
+        To increase the performance of the classification, we apply data augmentation on the training data and keep the test data as its original form.
       </p>
     </section>
 
